@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AnimalKingdom
+  description: |
+    Animal Kingdom is an open source reference implementation of a Spring project.
+  owner: auth-team
+  links:
+    - title: Website
+      url: https://spring-petclinic.github.io/
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: backstage/backstage
+    lighthouse.com/website-url: https://backstage.io
+    monitoring-url: https://monitoring.example.com/user-auth-service
+    pagerduty.com/service-id: "P123456"
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/lifecycle: production
+  tags:
+    - sample
+    - service
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: production
