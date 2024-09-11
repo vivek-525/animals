@@ -26,6 +26,9 @@ metadata:
     - service
 spec:
   system: petcommerce-system
-  type: library
+  type: service
+  providesApis:
+    - medicine
+    - order
   owner: CNCF
   lifecycle: production
