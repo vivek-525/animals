@@ -9,5 +9,4 @@ metadata:
 spec:
   type: database
   owner: pet-clinic-team
-  dependsOn:
-    - resource: external-backup-service
+  
